@@ -1,0 +1,55 @@
+
+
+import pygame
+
+#-------------------------
+#		Constants
+#-------------------------
+#background image is 1920x1080
+#Display Constants
+DISPLAY_TITLE = "Space Game"
+DISPLAY_WIDTH = 1280
+DISPLAY_HEIGHT = 800
+DISPLAY_HALF_WIDTH = int(DISPLAY_WIDTH/2)
+DISPLAY_HALF_HEIGHT = int(DISPLAY_HEIGHT/2)
+
+BACKGROUND_IMAGE_WIDTH = 1920
+BACKGROUND_IMAGE_HEIGHT = 1080
+
+FPS = 30
+
+MOVE_ACCELERATION = 2
+ROTATION_SPEED = 8
+MAX_PLAYER_SPEED = 20
+
+#World Constants
+
+#Color Constants
+WHITE	= (255,255,255)
+BLACK	= (0,0,0)
+RED		= (255,0,0)
+GREEN	= (0,255,0)
+BLUE	= (0,0,255)
+YELLOW	= (255,255,0)
+ORANGE	= (255,128,0)
+PURPLE	= (255,0,255)
+CYAN	= (0,255,255)
+NAVYBLUE= (60,60,100)
+
+COLORS = [
+	BLACK,
+	RED,
+	GREEN,
+	BLUE,
+	YELLOW,
+	ORANGE,
+	PURPLE,
+	CYAN,
+	NAVYBLUE
+]
+NUM_COLORS = len(COLORS)
+
+
+#Sprites and Textures
+SHIP_IMAGE_PATH = "Sprites/spaceship_0.png"
+
